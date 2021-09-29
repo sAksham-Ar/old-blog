@@ -142,7 +142,7 @@ The `-p` flag maps the port `5000` of our pc to `5000` of the Docker conatiner.
 
 ## Networks
 
-As we can see our app cannot reach the database even thought the database is running this is because they are running in separate containers. With Docker we can add them both in the same network.
+As we can see our app cannot reach the database even though the database is running this is because they are running in separate containers. With Docker, we can add them both in the same network.
 
 First let us create a network,
 
